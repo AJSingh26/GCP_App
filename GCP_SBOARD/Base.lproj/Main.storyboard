@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GCP_SBOARD" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -188,11 +188,7 @@
                         <segue destination="Sdr-OC-kjc" kind="show" id="svy-XT-zle"/>
                     </connections>
                 </tapGestureRecognizer>
-                <tapGestureRecognizer id="MLb-wM-p34">
-                    <connections>
-                        <segue destination="ioJ-XT-mrq" kind="push" id="EtW-ak-IkP"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="MLb-wM-p34"/>
             </objects>
             <point key="canvasLocation" x="-113.04347826086958" y="0.6696428571428571"/>
         </scene>
@@ -205,25 +201,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1o5-Li-Ekg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="403" y="-131"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="P5d-Lc-jZz">
-            <objects>
-                <viewController autoresizesArchivedViewToFullSize="NO" modalPresentationStyle="formSheet" id="ioJ-XT-mrq" sceneMemberID="viewController">
-                    <view key="view" autoresizesSubviews="NO" clipsSubviews="YES" contentMode="left" semanticContentAttribute="forceLeftToRight" layoutMarginsFollowReadableWidth="YES" id="3CF-Hs-0KR">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="734"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                        <viewLayoutGuide key="safeArea" id="Pdb-US-DOD"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
-                    </view>
-                    <value key="contentSizeForViewInPopover" type="size" width="320" height="896"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="788"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3sg-E0-u7X" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="836" y="-58"/>
         </scene>
         <!--Footwear-->
         <scene sceneID="icf-RT-eUH">
@@ -253,9 +230,6 @@
         <image name="Smollogo" width="230.5" height="230"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
