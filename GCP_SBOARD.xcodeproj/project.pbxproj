@@ -10,6 +10,7 @@
 		CA30024126C2EEFC0049C774 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30024026C2EEFC0049C774 /* Brand.swift */; };
 		CA30024326C2F4270049C774 /* BrandsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30024226C2F4270049C774 /* BrandsListCell.swift */; };
 		CA30C85826C436D10044CFC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30C85726C436D10044CFC6 /* ViewController.swift */; };
+		CA919AD826E4FDB300394AC8 /* GCP_SBOARDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79423C625F5BACD00DF2B11 /* GCP_SBOARDUITests.swift */; };
 		CAB6B0F426B1E02B0066EA9D /* CustomStaticCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6B0F226B1E02B0066EA9D /* CustomStaticCellTableViewCell.swift */; };
 		CAB6B0F526B1E02B0066EA9D /* CustomStaticCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB6B0F326B1E02B0066EA9D /* CustomStaticCellTableViewCell.xib */; };
 		E77BE9A625FF9EB000F92E51 /* Clothing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77BE9A525FF9EB000F92E51 /* Clothing.storyboard */; };
@@ -22,7 +23,6 @@
 		E79423AE25F5BACC00DF2B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E79423AD25F5BACC00DF2B11 /* Assets.xcassets */; };
 		E79423B125F5BACC00DF2B11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E79423AF25F5BACC00DF2B11 /* LaunchScreen.storyboard */; };
 		E79423BC25F5BACD00DF2B11 /* GCP_SBOARDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79423BB25F5BACD00DF2B11 /* GCP_SBOARDTests.swift */; };
-		E79423C725F5BACD00DF2B11 /* GCP_SBOARDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79423C625F5BACD00DF2B11 /* GCP_SBOARDUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,12 +117,12 @@
 			children = (
 				E79423A425F5BAC700DF2B11 /* AppDelegate.swift */,
 				E79423A625F5BAC700DF2B11 /* SceneDelegate.swift */,
-				E79423AA25F5BAC700DF2B11 /* Main.storyboard */,
 				E77BE9A525FF9EB000F92E51 /* Clothing.storyboard */,
 				E77BE9AA25FFA64F00F92E51 /* Footwear.storyboard */,
 				E77BE9AF25FFA6DA00F92E51 /* Accessories.storyboard */,
 				CAB6B0F226B1E02B0066EA9D /* CustomStaticCellTableViewCell.swift */,
 				CA30024226C2F4270049C774 /* BrandsListCell.swift */,
+				E79423AA25F5BAC700DF2B11 /* Main.storyboard */,
 				CAB6B0F326B1E02B0066EA9D /* CustomStaticCellTableViewCell.xib */,
 				CA30024026C2EEFC0049C774 /* Brand.swift */,
 				E79423A825F5BAC700DF2B11 /* BrandsListViewController.swift */,
@@ -293,6 +293,7 @@
 				CA30C85826C436D10044CFC6 /* ViewController.swift in Sources */,
 				E79423A725F5BAC700DF2B11 /* SceneDelegate.swift in Sources */,
 				CA30024326C2F4270049C774 /* BrandsListCell.swift in Sources */,
+				CA919AD826E4FDB300394AC8 /* GCP_SBOARDUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,7 +309,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E79423C725F5BACD00DF2B11 /* GCP_SBOARDUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X39S5JJUD8;
 				INFOPLIST_FILE = GCP_SBOARD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X39S5JJUD8;
 				INFOPLIST_FILE = GCP_SBOARD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

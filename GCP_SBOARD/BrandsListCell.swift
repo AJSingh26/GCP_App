@@ -13,6 +13,13 @@ class BrandsListCell: UITableViewCell {
     @IBOutlet var brandName: UILabel!
     @IBOutlet var brandDesc: UILabel!
     @IBOutlet var favButton: UIButton!
+    @IBOutlet var brandClass: UILabel!
+    @IBOutlet var brandPrice: UILabel!
+    @IBOutlet var brandImg: UIImageView!
+    /*@IBAction func urlOpen( sender:UITableViewCell){
+        UIApplication.shared.open( URL(string: "www.google.com")!)
+    }*/
+    
     
     var favButtonAction: FavButtonAction?
     

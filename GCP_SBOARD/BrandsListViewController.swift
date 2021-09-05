@@ -9,7 +9,14 @@ import UIKit
 
 class BrandsListViewController: UITableViewController {
 
+    @IBAction func goAwayCloth(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    @IBAction func dblTap(_ sender: Any) {
+        UIApplication.shared.open( URL(string: "www.google.com")!)
+    }
 }
+
 
 extension BrandsListViewController {
     static let brandsListCellIdentifier = "BrandsListCell"
@@ -21,10 +28,20 @@ extension BrandsListViewController {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: Self.brandsListCellIdentifier, for: indexPath) as? BrandsListCell else {
                 fatalError("Unable to dequeue BrandsCell")
             }
+        //Should I make the white black+vice versa in dark mode???
+        
         let brand = Brand.testData[indexPath.row]
         let image = brand.isFavorite ? UIImage(systemName: "heart.fill") : UIImage(systemName: "heart")
+        
+        //let uRl = NSURL(string:brand.URL)
+                
+        //let attrName = NSAttributedString(string: brand.Name, attributes: [NSAttributedString.Key.foregroundColor: UIColor.black,NSAttributedString.Key.link: uRl as Any])
+        
         cell.brandName.text = brand.Name
         cell.brandDesc.text = brand.Description
+        cell.brandClass.text = brand.Classification
+        cell.brandPrice.text = brand.Price
+        cell.brandImg.image = brand.logo
         cell.backgroundColor = indexPath.row%2==1 ? UIColor(red: 20/255, green:135/255, blue:53/255, alpha:1.0) : .white
         cell.favButton.setBackgroundImage(image, for: .normal)
         cell.favButtonAction = {
@@ -32,6 +49,9 @@ extension BrandsListViewController {
                     Brand.testData[indexPath.row].isFavorite.toggle()
                     tableView.reloadRows(at: [indexPath], with: .none)
                 }
+        
+
+        
         return cell
     
     }
