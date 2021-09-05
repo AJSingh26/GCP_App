@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TWa-nU-aHD">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -14,14 +14,14 @@
             <objects>
                 <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Fy3-Ad-bTD">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95R-yA-yqF">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="79"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="95R-yA-yqF" secondAttribute="height" multiplier="207:16" id="vZJ-Bz-M6g"/>
                                         </constraints>
@@ -30,13 +30,13 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Smollogo" translatesAutoresizingMaskIntoConstraints="NO" id="gE2-E5-U1O">
-                                        <rect key="frame" x="0.0" y="79" width="1024" height="119"/>
+                                        <rect key="frame" x="0.0" y="29.999999999999993" width="390" height="92.333333333333314"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="gE2-E5-U1O" secondAttribute="height" multiplier="450:106" id="bLi-7f-2nu"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rge-f6-mI4">
-                                        <rect key="frame" x="0.0" y="198" width="1024" height="389.5"/>
+                                        <rect key="frame" x="0.0" y="122.33333333333333" width="390" height="240.66666666666669"/>
                                         <color key="backgroundColor" red="0.078431372550000003" green="0.52941176469999995" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Rge-f6-mI4" secondAttribute="height" multiplier="83:50" id="n15-fT-GvN"/>
@@ -53,7 +53,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Footwear" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b8G-xt-dQa">
-                                        <rect key="frame" x="0.0" y="587.5" width="1024" height="389"/>
+                                        <rect key="frame" x="0.0" y="363" width="390" height="240.33333333333337"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="b8G-xt-dQa" secondAttribute="height" multiplier="83:50" id="pdS-51-8M2"/>
                                         </constraints>
@@ -62,7 +62,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T3D-2A-V1r">
-                                        <rect key="frame" x="0.0" y="976.5" width="1024" height="389.5"/>
+                                        <rect key="frame" x="0.0" y="603.33333333333337" width="390" height="240.66666666666663"/>
                                         <color key="backgroundColor" red="0.078431372550000003" green="0.52941176469999995" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="T3D-2A-V1r" secondAttribute="height" multiplier="83:50" id="mIb-Dc-csX"/>
@@ -91,29 +91,20 @@
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="EWs-6L-BD0">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xf1-bv-0hN">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="337"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" secondItem="xf1-bv-0hN" secondAttribute="height" multiplier="207:16" id="C62-0T-vPi"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
                                     <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FSs-6q-D8S">
-                                        <rect key="frame" x="0.0" y="337" width="1024" height="250.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="130"/>
                                         <gestureRecognizers/>
                                         <constraints>
-                                            <constraint firstAttribute="height" secondItem="FSs-6q-D8S" secondAttribute="width" multiplier="110:450" id="8eE-T4-4pt"/>
+                                            <constraint firstAttribute="height" secondItem="FSs-6q-D8S" secondAttribute="width" multiplier="100:300" id="8eE-T4-4pt"/>
                                         </constraints>
                                         <connections>
                                             <outletCollection property="gestureRecognizers" destination="MLb-wM-p34" appends="YES" id="qS8-au-1Se"/>
                                         </connections>
                                     </imageView>
                                     <imageView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clothing" translatesAutoresizingMaskIntoConstraints="NO" id="ILW-7Q-scz">
-                                        <rect key="frame" x="0.0" y="130" width="414" height="255.5"/>
+                                        <rect key="frame" x="0.0" y="130" width="390" height="233"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="ILW-7Q-scz" secondAttribute="height" multiplier="83:50" id="ljG-KF-wWw"/>
@@ -123,7 +114,7 @@
                                         </connections>
                                     </imageView>
                                     <imageView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="hln-oL-Mgu">
-                                        <rect key="frame" x="0.0" y="587.5" width="1024" height="389"/>
+                                        <rect key="frame" x="0.0" y="363" width="390" height="240.33333333333337"/>
                                         <gestureRecognizers/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="hln-oL-Mgu" secondAttribute="height" multiplier="83:50" id="urC-DE-CAE"/>
@@ -133,7 +124,7 @@
                                         </connections>
                                     </imageView>
                                     <imageView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.40000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="iCV-W0-0aJ">
-                                        <rect key="frame" x="0.0" y="976.5" width="1024" height="389.5"/>
+                                        <rect key="frame" x="0.0" y="603.33333333333337" width="390" height="240.66666666666663"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="iCV-W0-0aJ" secondAttribute="height" multiplier="83:50" id="h7U-sZ-s93"/>
                                         </constraints>
@@ -144,9 +135,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="ILW-7Q-scz" firstAttribute="width" secondItem="EWs-6L-BD0" secondAttribute="width" id="Cbt-Vd-yIs"/>
-                                    <constraint firstItem="FSs-6q-D8S" firstAttribute="top" secondItem="EWs-6L-BD0" secondAttribute="top" id="OxG-Je-xOS"/>
                                     <constraint firstItem="iCV-W0-0aJ" firstAttribute="width" secondItem="EWs-6L-BD0" secondAttribute="width" id="a7Y-7k-HgP"/>
-                                    <constraint firstItem="ILW-7Q-scz" firstAttribute="height" secondItem="EWs-6L-BD0" secondAttribute="height" multiplier="0.285" id="cP5-kV-T6s"/>
                                     <constraint firstItem="FSs-6q-D8S" firstAttribute="leading" secondItem="EWs-6L-BD0" secondAttribute="leading" id="iDI-Em-h7H"/>
                                     <constraint firstItem="hln-oL-Mgu" firstAttribute="width" secondItem="EWs-6L-BD0" secondAttribute="width" id="oCH-Dt-0Y2"/>
                                     <constraint firstItem="iCV-W0-0aJ" firstAttribute="height" secondItem="EWs-6L-BD0" secondAttribute="height" multiplier="0.285" id="z73-YW-sHa"/>
@@ -204,6 +193,153 @@
             </objects>
             <point key="canvasLocation" x="403" y="-131"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="R8w-L0-HqV">
+            <objects>
+                <viewController id="TWa-nU-aHD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DCk-3F-eK8">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Smollogo" translatesAutoresizingMaskIntoConstraints="NO" id="giZ-G5-Fen">
+                                <rect key="frame" x="0.0" y="44.000000000000007" width="390" height="83.666666666666686"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="giZ-G5-Fen" secondAttribute="height" multiplier="107:23" id="NdT-Lh-rUh"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="sMW-Ly-KER">
+                                <rect key="frame" x="0.0" y="127.66666666666669" width="390" height="716.33333333333326"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Clothing" translatesAutoresizingMaskIntoConstraints="NO" id="ZEq-cO-e9n">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="239"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shoes" translatesAutoresizingMaskIntoConstraints="NO" id="jOb-vw-v9L">
+                                        <rect key="frame" x="0.0" y="239" width="390" height="238.66666666666663"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="ijj-wj-Hrn">
+                                        <rect key="frame" x="0.0" y="477.66666666666669" width="390" height="238.66666666666669"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wSC-DG-Doz">
+                                <rect key="frame" x="0.0" y="127.66666666666669" width="390" height="716.33333333333326"/>
+                                <subviews>
+                                    <label opaque="NO" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" enabled="NO" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRH-gp-97n">
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="239"/>
+                                        <color key="backgroundColor" red="0.078431372550000003" green="0.52941176469999995" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Clothing">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="65" name="ArialMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="y8e-jc-yQv" appends="YES" id="FEJ-1f-VID"/>
+                                        </connections>
+                                    </label>
+                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Footwear" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XEc-ls-IjK">
+                                        <rect key="frame" x="0.0" y="239" width="390" height="238.66666666666663"/>
+                                        <gestureRecognizers/>
+                                        <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="65"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="BuE-yV-hOb" appends="YES" id="6Yk-Ru-U93"/>
+                                        </connections>
+                                    </label>
+                                    <label opaque="NO" multipleTouchEnabled="YES" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Zv-5K-DuH">
+                                        <rect key="frame" x="0.0" y="477.66666666666669" width="390" height="238.66666666666669"/>
+                                        <color key="backgroundColor" red="0.078431372550000003" green="0.52941176469999995" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <gestureRecognizers/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Accessories">
+                                                <attributes>
+                                                    <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" size="65" name="ArialMT"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="oQx-Hz-fHu" appends="YES" id="CAK-81-dUf"/>
+                                        </connections>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="4ne-cf-MOt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="wSC-DG-Doz" firstAttribute="top" secondItem="giZ-G5-Fen" secondAttribute="bottom" id="1tp-Pf-So0"/>
+                            <constraint firstItem="sMW-Ly-KER" firstAttribute="trailing" secondItem="4ne-cf-MOt" secondAttribute="trailing" id="2ZS-rX-5QO"/>
+                            <constraint firstAttribute="bottom" secondItem="wSC-DG-Doz" secondAttribute="bottom" id="5Tj-W3-W2y"/>
+                            <constraint firstItem="sMW-Ly-KER" firstAttribute="top" secondItem="giZ-G5-Fen" secondAttribute="bottom" id="5jZ-l2-mDd"/>
+                            <constraint firstItem="sMW-Ly-KER" firstAttribute="leading" secondItem="4ne-cf-MOt" secondAttribute="leading" id="A2n-hx-z0F"/>
+                            <constraint firstItem="wSC-DG-Doz" firstAttribute="leading" secondItem="4ne-cf-MOt" secondAttribute="leading" id="CAX-e6-0Nk"/>
+                            <constraint firstItem="4ne-cf-MOt" firstAttribute="trailing" secondItem="wSC-DG-Doz" secondAttribute="trailing" id="a4Y-Pc-fuT"/>
+                            <constraint firstItem="giZ-G5-Fen" firstAttribute="top" secondItem="4ne-cf-MOt" secondAttribute="top" id="f4e-Kh-4zp"/>
+                            <constraint firstAttribute="bottom" secondItem="sMW-Ly-KER" secondAttribute="bottom" id="fTg-3O-s7a"/>
+                            <constraint firstItem="4ne-cf-MOt" firstAttribute="trailing" secondItem="giZ-G5-Fen" secondAttribute="trailing" id="fhv-ac-Fiz"/>
+                            <constraint firstItem="giZ-G5-Fen" firstAttribute="leading" secondItem="4ne-cf-MOt" secondAttribute="leading" id="xYd-Sb-tWW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YrA-ZD-Rcl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="y8e-jc-yQv">
+                    <connections>
+                        <segue destination="Mdl-p9-Pyp" kind="show" id="uYd-ZQ-n1v"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="BuE-yV-hOb">
+                    <connections>
+                        <segue destination="llY-aT-06z" kind="show" id="YVK-Wl-URM"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="oQx-Hz-fHu">
+                    <connections>
+                        <segue destination="lN5-g3-P7r" kind="show" id="sPe-bQ-dt0"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="892.99065420560737" y="-243.62850971922248"/>
+        </scene>
+        <!--Clothing-->
+        <scene sceneID="paJ-d0-QGk">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Clothing" id="Mdl-p9-Pyp" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="29L-I1-xYT"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PFe-sd-iwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1418" y="-469"/>
+        </scene>
+        <!--Footwear-->
+        <scene sceneID="pNj-8v-TFw">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Footwear" id="llY-aT-06z" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vys-NQ-a3U"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XCU-tE-RgW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1502" y="-200"/>
+        </scene>
+        <!--Accessories-->
+        <scene sceneID="fDm-g6-vzQ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Accessories" id="lN5-g3-P7r" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="cai-dH-NRQ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t6N-iR-RJD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1522" y="0.0"/>
+        </scene>
         <!--Footwear-->
         <scene sceneID="icf-RT-eUH">
             <objects>
@@ -224,12 +360,20 @@
             </objects>
             <point key="canvasLocation" x="414" y="183"/>
         </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="k9m-9D-9tw">
+            <objects>
+                <viewControllerPlaceholder id="7fI-c5-QLB" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3oT-sn-VCT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="698" y="78"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Clothing" width="2016" height="1512"/>
-        <image name="Image" width="2016" height="1512"/>
-        <image name="Shoes" width="2016" height="1512"/>
-        <image name="Smollogo" width="230.5" height="230"/>
+        <image name="Clothing" width="1344" height="1008"/>
+        <image name="Image" width="1344" height="1008"/>
+        <image name="Shoes" width="1344" height="1008"/>
+        <image name="Smollogo" width="153.66667175292969" height="153.33332824707031"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

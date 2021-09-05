@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1E3-pS-BHw">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="ipad11_0rounded" orientation="portrait" layout="fullscreen" appearance="dark"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -13,7 +13,7 @@
             <objects>
                 <navigationController id="1E3-pS-BHw" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="Cpg-Z9-DOu">
-                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="102"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -29,19 +29,19 @@
             <objects>
                 <tableViewController id="vQ6-mi-Zmk" customClass="BrandsListViewController" customModule="GCP_SBOARD" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="kNg-T1-s0E">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="BrandsListCell" id="slU-e1-R8J" customClass="BrandsListCell" customModule="GCP_SBOARD" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="24.5" width="414" height="189.5"/>
+                                <rect key="frame" x="0.0" y="24.5" width="834" height="189.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="slU-e1-R8J" id="cBF-aU-Ne8">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="189.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="834" height="189.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BI8-Ta-2KQ">
-                                            <rect key="frame" x="339.5" y="94.5" width="44" height="41.5"/>
+                                            <rect key="frame" x="759.5" y="94.5" width="44" height="41.5"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="BI8-Ta-2KQ" secondAttribute="height" multiplier="1:1" id="KYc-eJ-0na"/>
                                                 <constraint firstAttribute="width" constant="44" id="gQe-bv-4KV"/>
@@ -79,27 +79,32 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4D-cT-Jhp">
-                                            <rect key="frame" x="20" y="148" width="311.5" height="21"/>
+                                            <rect key="frame" x="20" y="148" width="731.5" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Smollogo" translatesAutoresizingMaskIntoConstraints="NO" id="mZZ-UD-yhX">
-                                            <rect key="frame" x="329" y="20" width="65" height="65"/>
+                                            <rect key="frame" x="749" y="20" width="65" height="65"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="mZZ-UD-yhX" secondAttribute="height" multiplier="1:1" id="T1i-Tm-bhJ"/>
                                                 <constraint firstAttribute="width" constant="65" id="jSj-YC-bUk"/>
                                             </constraints>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v1G-d5-ou4">
-                                            <rect key="frame" x="-5" y="16" width="399" height="49"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                            <rect key="frame" x="0.0" y="16" width="834" height="57"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                             <state key="normal" title="                                                           ">
                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             </state>
+                                            <connections>
+                                                <action selector="linkButtonTriggered:" destination="slU-e1-R8J" eventType="touchUpInside" id="d8A-7h-lQc"/>
+                                            </connections>
                                         </button>
                                     </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <constraints>
+                                        <constraint firstItem="v1G-d5-ou4" firstAttribute="leading" secondItem="cBF-aU-Ne8" secondAttribute="leading" id="0j3-Ia-rZ0"/>
                                         <constraint firstItem="mZZ-UD-yhX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nfA-38-r5a" secondAttribute="trailing" constant="8" symbolic="YES" id="46k-81-BLz"/>
                                         <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="C2q-8l-fjF" secondAttribute="trailing" constant="20" symbolic="YES" id="8VB-AR-mdp"/>
                                         <constraint firstAttribute="trailing" secondItem="mZZ-UD-yhX" secondAttribute="trailing" constant="20" symbolic="YES" id="9xK-aA-Zga"/>
@@ -118,6 +123,7 @@
                                         <constraint firstItem="mZZ-UD-yhX" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eRo-mo-E7u" secondAttribute="trailing" constant="8" symbolic="YES" id="cos-Os-Phu"/>
                                         <constraint firstItem="C2q-8l-fjF" firstAttribute="leading" secondItem="cBF-aU-Ne8" secondAttribute="leadingMargin" id="ftP-qa-hOe"/>
                                         <constraint firstItem="v1G-d5-ou4" firstAttribute="top" secondItem="cBF-aU-Ne8" secondAttribute="top" constant="16" id="hjA-pS-vpa"/>
+                                        <constraint firstAttribute="trailing" secondItem="v1G-d5-ou4" secondAttribute="trailing" id="iFW-mG-dtA"/>
                                         <constraint firstItem="BI8-Ta-2KQ" firstAttribute="leading" secondItem="T4D-cT-Jhp" secondAttribute="trailing" constant="8" symbolic="YES" id="sTQ-OU-geT"/>
                                         <constraint firstItem="v1G-d5-ou4" firstAttribute="top" secondItem="cBF-aU-Ne8" secondAttribute="top" constant="16" id="vjj-fu-0wW"/>
                                     </constraints>
@@ -130,7 +136,6 @@
                                     <outlet property="brandName" destination="C2q-8l-fjF" id="SQK-KU-nEN"/>
                                     <outlet property="brandPrice" destination="T4D-cT-Jhp" id="mOV-VK-bsc"/>
                                     <outlet property="favButton" destination="BI8-Ta-2KQ" id="E71-9J-pGZ"/>
-                                    <outletCollection property="gestureRecognizers" destination="KTI-Dr-PqI" appends="YES" id="CLL-oG-FgC"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -148,13 +153,8 @@
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1PD-o0-LIv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer numberOfTapsRequired="2" numberOfTouchesRequired="2" id="KTI-Dr-PqI">
-                    <connections>
-                        <action selector="dblTap:" destination="vQ6-mi-Zmk" id="UoV-Ua-8Rj"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="318.84057971014494" y="-416.51785714285711"/>
+            <point key="canvasLocation" x="318.70503597122303" y="-416.5829145728643"/>
         </scene>
     </scenes>
     <resources>
