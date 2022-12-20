@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4673BF4E2778B5C50020AA92 /* userDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4673BF4D2778B5C50020AA92 /* userDefaults.swift */; };
 		CA30024126C2EEFC0049C774 /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30024026C2EEFC0049C774 /* Brand.swift */; };
 		CA30024326C2F4270049C774 /* BrandsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30024226C2F4270049C774 /* BrandsListCell.swift */; };
 		CA30C85826C436D10044CFC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA30C85726C436D10044CFC6 /* ViewController.swift */; };
-		CA919AD926E50C5700394AC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E79423BD25F5BACD00DF2B11 /* Info.plist */; };
-		CA919ADC26E50C6A00394AC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E79423C825F5BACD00DF2B11 /* Info.plist */; };
 		CA919ADD26E50C6E00394AC8 /* GCP_SBOARDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E79423C625F5BACD00DF2B11 /* GCP_SBOARDUITests.swift */; };
-		CA919ADF26E51DC700394AC8 /* userDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA919ADE26E51DC600394AC8 /* userDefaults.swift */; };
 		CAB6B0F426B1E02B0066EA9D /* CustomStaticCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB6B0F226B1E02B0066EA9D /* CustomStaticCellTableViewCell.swift */; };
 		CAB6B0F526B1E02B0066EA9D /* CustomStaticCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB6B0F326B1E02B0066EA9D /* CustomStaticCellTableViewCell.xib */; };
 		E77BE9A625FF9EB000F92E51 /* Clothing.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E77BE9A525FF9EB000F92E51 /* Clothing.storyboard */; };
@@ -46,10 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4673BF4D2778B5C50020AA92 /* userDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = userDefaults.swift; sourceTree = "<group>"; };
 		CA30024026C2EEFC0049C774 /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
 		CA30024226C2F4270049C774 /* BrandsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandsListCell.swift; sourceTree = "<group>"; };
 		CA30C85726C436D10044CFC6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CA919ADE26E51DC600394AC8 /* userDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = userDefaults.swift; path = "../../../../Library/Messages/Attachments/56/06/450592A8-706E-42F0-85D7-D70C729AD9A7/userDefaults.swift"; sourceTree = "<group>"; };
 		CAB6B0F226B1E02B0066EA9D /* CustomStaticCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomStaticCellTableViewCell.swift; sourceTree = "<group>"; };
 		CAB6B0F326B1E02B0066EA9D /* CustomStaticCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomStaticCellTableViewCell.xib; sourceTree = "<group>"; };
 		E77BE9A525FF9EB000F92E51 /* Clothing.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Clothing.storyboard; sourceTree = "<group>"; };
@@ -122,7 +120,7 @@
 				E79423A425F5BAC700DF2B11 /* AppDelegate.swift */,
 				E79423A625F5BAC700DF2B11 /* SceneDelegate.swift */,
 				E77BE9A525FF9EB000F92E51 /* Clothing.storyboard */,
-				CA919ADE26E51DC600394AC8 /* userDefaults.swift */,
+				4673BF4D2778B5C50020AA92 /* userDefaults.swift */,
 				E77BE9AA25FFA64F00F92E51 /* Footwear.storyboard */,
 				E77BE9AF25FFA6DA00F92E51 /* Accessories.storyboard */,
 				CAB6B0F226B1E02B0066EA9D /* CustomStaticCellTableViewCell.swift */,
@@ -220,7 +218,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					E79423A025F5BAC700DF2B11 = {
 						CreatedOnToolsVersion = 12.4;
@@ -274,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA919AD926E50C5700394AC8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +279,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA919ADC26E50C6A00394AC8 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +293,7 @@
 				E79423A925F5BAC700DF2B11 /* BrandsListViewController.swift in Sources */,
 				CA30024126C2EEFC0049C774 /* Brand.swift in Sources */,
 				E79423A525F5BAC700DF2B11 /* AppDelegate.swift in Sources */,
-				CA919ADF26E51DC700394AC8 /* userDefaults.swift in Sources */,
+				4673BF4E2778B5C50020AA92 /* userDefaults.swift in Sources */,
 				CA30C85826C436D10044CFC6 /* ViewController.swift in Sources */,
 				E79423A725F5BAC700DF2B11 /* SceneDelegate.swift in Sources */,
 				CA30024326C2F4270049C774 /* BrandsListCell.swift in Sources */,
@@ -478,13 +474,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X39S5JJUD8;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = GCP_SBOARD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Green-Comsumer-Project.GCP-SBOARD";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Green-Comsumer-Project.GCP-SBOARD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -498,13 +496,15 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X39S5JJUD8;
+				EXCLUDED_ARCHS = "";
 				INFOPLIST_FILE = GCP_SBOARD/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Green-Comsumer-Project.GCP-SBOARD";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Green-Comsumer-Project.GCP-SBOARD";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
